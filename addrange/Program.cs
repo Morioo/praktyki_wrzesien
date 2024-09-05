@@ -11,7 +11,7 @@ namespace Lekcja13
         {
             //Metoda add range
             String[] input = { "Masło", "Chleb", "Jajka" };
-            List<string> foods = new List<string>(input);    //tworzenie listy
+            List<string> foods = new List<string>(input);    //create array
             Console.WriteLine("Pojemnosc: {0}", foods.Capacity);
 
             foreach (String food in foods)
