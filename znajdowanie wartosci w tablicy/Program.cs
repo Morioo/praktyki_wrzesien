@@ -15,13 +15,13 @@ namespace Lekcja13
     {
 
         static void Main(string[] args)
-        {                                               //Metoda add  oraz operator new!
+        {                                               //The add method and the new operator
 
             List<Producer> Prods = new List<Producer>();
             Prods.Add(
                 new Producer()
                 {
-                    ProducerName = "Jan", ProducerId = 23                     //dodawanie elementu do listy
+                    ProducerName = "Jan", ProducerId = 23                     //adding an item to the list
 
                 }
             );
