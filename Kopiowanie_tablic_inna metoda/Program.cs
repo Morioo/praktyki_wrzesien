@@ -10,8 +10,9 @@ namespace Lekcja13
         {
 
             //metoda na kopiowanie tablicy
-            Array sourceArr = Array.CreateInstance(typeof(string), 6);   //tablica           , typ tablicy, ilość elementów
-            sourceArr.SetValue("To", 0);                          //elementy tablicy
+            Array sourceArr = Array.CreateInstance(typeof(string), 6);   //array, array type, number of elements
+
+            sourceArr.SetValue("To", 0);                          //array elements
             sourceArr.SetValue("jest", 1);
             sourceArr.SetValue("bardzo", 2);
             sourceArr.SetValue("bardzo", 3);
@@ -30,10 +31,10 @@ namespace Lekcja13
             targetArr.SetValue("zepsuty", 8);
             Console.WriteLine("Tablica źródłowa");
 
-            DisplayArr(sourceArr, ' ');       //metoda\
+            DisplayArr(sourceArr, ' ');       //method\
             Console.WriteLine("Tablica docelowa przed kopiowaniem");
            DisplayArr(targetArr, ' ');
-            sourceArr.CopyTo(targetArr, 6);   //Kopiowanie
+            sourceArr.CopyTo(targetArr, 6);   //Copy
             Console.WriteLine("Po kopiowaniu !");
             DisplayArr(targetArr, ' ');
 
