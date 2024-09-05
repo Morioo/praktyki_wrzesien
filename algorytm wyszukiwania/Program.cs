@@ -10,7 +10,7 @@ namespace Lekcja13
         {
 
 
-            Array iarr = Array.CreateInstance(typeof(Int32), 5);       //metoda binary search
+            Array iarr = Array.CreateInstance(typeof(Int32), 5);       //methoda binary search
             iarr.SetValue(8, 0);
             iarr.SetValue(2, 1);
             iarr.SetValue(6, 2);
