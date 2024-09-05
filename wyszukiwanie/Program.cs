@@ -14,15 +14,15 @@ namespace Lekcja13
     {
 
         static void Main(string[] args)
-        {                                                           //metoda bin search 2!
-            string[] animals = { "Słoń", "Papuga", "Lew", "Ptasznik", "Królik" }; //tablica
+        {                                                           //method bin search 2!
+            string[] animals = { "Słoń", "Papuga", "Lew", "Ptasznik", "Królik" }; //array
 
             foreach (string animal in animals)
-            {                                               //wyświetlenie tablicy
+            {                                               //array display
                 Console.WriteLine(animal);
             }
 
-            ReverseComparer revComp = new ReverseComparer(); //tworzenie klasy
+            ReverseComparer revComp = new ReverseComparer(); //createing class
             Console.WriteLine("Sortowanie");
             Array.Sort(animals, revComp);
             foreach (string animal in animals )
