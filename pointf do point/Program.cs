@@ -14,7 +14,7 @@ namespace Lekcja13
             PointF[] pointfTab =
             {
                 new PointF(23.8F, 43.64F),
-                new PointF (33.3F, 72.11F),     //tablica
+                new PointF (33.3F, 72.11F),     //array
                 new PointF(11.1F, 5F)
             };
             foreach (PointF p in pointfTab)
